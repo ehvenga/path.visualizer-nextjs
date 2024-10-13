@@ -5,6 +5,7 @@ import './globals.css';
 
 import Footer from '@/components/Footer';
 import Toolbar from '@/components/Toolbar';
+import Legend from '@/components/Legend';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -25,6 +26,7 @@ export default function RootLayout({
         {/* Toolbar fixed at the top */}
         <header className='fixed top-0 left-0 right-0 z-10'>
           <Toolbar />
+          <Legend />
         </header>
 
         {/* Main content with padding to account for fixed Toolbar */}
