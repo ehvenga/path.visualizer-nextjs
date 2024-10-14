@@ -7,7 +7,7 @@ import {
   TILE_STYLE,
   TRAVERSED_TILE_STYLE,
   WALL_TILE_STYLE,
-} from '@/utils/constants';
+} from '@/util/constants';
 
 interface MouseFunction {
   (row: number, col: number): void;
