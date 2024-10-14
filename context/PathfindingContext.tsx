@@ -1,6 +1,6 @@
-import { END_TILE_CONFIG, START_TILE_CONFIG } from '@/lib/constants';
-import { AlgorithmType, GridType, MazeType } from '@/lib/types';
-import { createGrid } from '@/lib/utils';
+import { END_TILE_CONFIG, START_TILE_CONFIG } from '@/utils/constants';
+import { AlgorithmType, GridType, MazeType } from '@/utils/types';
+import { createGrid } from '@/utils/helpers';
 import { createContext, ReactNode, use, useState } from 'react';
 
 interface PathFindingContextInterface {

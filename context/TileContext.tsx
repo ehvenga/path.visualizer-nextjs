@@ -1,5 +1,5 @@
-import { END_TILE_CONFIG, START_TILE_CONFIG } from '@/lib/constants';
-import { TileType } from '@/lib/types';
+import { END_TILE_CONFIG, START_TILE_CONFIG } from '@/utils/constants';
+import { TileType } from '@/utils/types';
 import { createContext, ReactNode, useState } from 'react';
 
 interface TileContextInterface {

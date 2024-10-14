@@ -1,7 +1,7 @@
 'use client';
 
 import { usePathFinding } from '@/hooks/usePathfinding';
-import { MAX_COLS, MAX_ROWS } from '@/lib/constants';
+import { MAX_COLS, MAX_ROWS } from '@/utils/constants';
 import React from 'react';
 import { twMerge } from 'tailwind-merge';
 
